@@ -278,7 +278,7 @@ app.get("/profile", (req, res) => {
   }
 });
 
-// Verify that the callback came from Facebook.
+// Test Verify that the callback came from Facebook.
 function verifyRequestSignature(req, res, buf) {
   var signature = req.headers["x-hub-signature"];
 
